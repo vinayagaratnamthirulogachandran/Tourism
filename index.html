@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajiruth Tour </title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./section1.css">
+
+     <!--BS5 css link-->
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+       <!--font awesom link-->
+       <script src="https://kit.fontawesome.com/d066a8dbc3.js" crossorigin="anonymous"></script>
+
+       <!-- product page link -->
+       <link rel="stylesheet" href="./product.html">
+</head>
+
+
+
+<body>
+
+    <!-- navbar  Start-->
+
+ <section>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container" id="loader">
+            <a href="" class="navbar-brand" >
+                <i></i>Sajiruth Tours</a>
+            <button class="navbar-toggler" type="button"  data-target="navbar1">
+            </button>
+
+        <div class="  navbar-collapse  spinner" id="navbar1" onclick="makeActive">
+            <div>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#" class="nav-link" >Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Product</a>
+                </li>
+                <li>
+                    <a href="/404.html" class="nav-link" id="service-link">Service</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Team</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown" >Dropdown</a>
+                    <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" href="#">Places</a></li>
+                        <li><a class="dropdown-item" href="#">Hotels</a></li>
+                        <li><a class="dropdown-item">Foods</a></li>
+                        <li><a class="dropdown-item" href="#">Transport</a></li>
+                      </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li>
+                <button type="button" class="rounded-pill btn-sm" id="button">Get Started</button>
+            </li>           
+            </ul>
+        </div>
+        </div>
+    </nav>
+     </header>
+ </section>
+
+ <!-- navbar end -->
+
+
+<!-- section 1 start -->
+<section>
+    <div class="grid-container2">
+      <div id="div1">
+          <h5>welcome our Sajiruth Tour <i class="fa-solid fa-face-smile"></i></h5>
+       <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Eius, veritatis.</p> <br>
+       <a href="#" class="btn btn-primary" id="get">Get Started</a>
+      </div>
+  
+  
+  
+       <!-- Slideshow container -->
+  <div class="slideshow-container">
+  
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+      <img src="./image/tourism1.jpg"  class="rounded float-end" alt="..." width="300px" height="200px">
+    </div>
+  
+    <div class="mySlides">
+      <img src="./image/tourism2.jpg"  class="rounded float-end" alt="..." width="300px" height="200px">
+    </div>
+  
+    <div class="mySlides">
+      <img src="./image/tourism3.jpg"  class="rounded float-end" alt="..." width="300px" height="200px">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)"> < </a>
+    <a class="next" onclick="plusSlides(1)"> > </a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> 
+     
+    </div>
+  </div>
+  
+  </section>
+   
+   <!-- section 1 end -->
+
+
+
+  <!-- section 2 start -->
+<div class="grid-container3">
+    <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="./image/tourism8.jpg" alt="Smiley" width="200px" height="150px">
+    </div> 
+     
+    <div>
+        <div><h5>flavour</h5>
+        <p>awesome tasty coffeies
+            Lorem ipsum dolor, sit amet  <br>consectetur  adipisicing elit. Odit, quia?
+        </p>
+    <div class="grid-container4">
+       <div>
+        <i class="fa-regular fa-face-grin-tears"></i>
+        <h5>Best quality</h5>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Amet, a.</p>
+       </div>
+       <div>
+        <i class="fa-brands fa-intercom"></i>
+         <h5>Coustem facilities</h5>
+         <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Temporibus, esse!</p>
+        </div>
+           
+        </div>
+          
+    </div>
+</div>
+   
+</div>
+
+<!-- section 2 end -->
+
+
+
+<!-- section 3 start -->
+<section >
+    <h5 class="potfilo">Portfolio</h5>
+    <h5 style="text-align:center;">Check out our beautiful portfolio</h5>
+   <button type="button" id="button1"></button>
+  </section>
+  
+  <div id="card">
+  
+    <a class="btn active" onclick="filterSelection('All')">All</a>
+  
+    <a class="btn" onclick="filterSelection('Upcountry')">Upcountry</a>
+  
+    <a class="btn" onclick="filterSelection('Beach')">Beach</a>
+  
+    <a class="btn" onclick="filterSelection('Tample')">Tample</a>
+  
+  </div>
+  
+  
+  
+  <section>
+    <div class="grid-container5">
+      <div id="row" class="gallery">
+        <div class="column Upcountry"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism5.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Upcountry"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism9.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Upcountry"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism13.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Beach"> 
+          
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism7.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Beach"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism10.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Beach"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism14.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Tample"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism6.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Tample"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism11.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        <div class="column Tample"> 
+          <div class="content">
+          <a href="./product.html"><img src="./image/tourism12.jpg" alt="" width="250px" height="200px"></a>
+        </div>
+        </div>
+  
+        
+  
+      </div>
+      </div>
+  </section>
+  <!-- section 3 end -->
+
+<br>
+  <!-- section 6 start -->
+
+  <div class="grid-container6">
+    <div class="card">
+        <img src="./image/tourism15.webp" alt="tourist" style="width:100%">
+        <h1>Sri Dalada</h1>
+        <p class="price">Kandy</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Beatae laborum molestiae provident praesentium, sapiente 
+         dignissimos, obcaecati impedit voluptates doloribus repellendus 
+         necessitatibus mollitia tenetur. Voluptatum impedit cupiditate 
+         quo assumenda dolor facere.</p>
+        <p><button>Wishlist</button></p>
+      </div> 
+
+      <div class="card">
+        <img src="./image/tourism1.jpg" alt="tourist" style="width:100%">
+        <h1>Nine Arch</h1>
+        <p class="price">Ella</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Beatae laborum molestiae provident praesentium, sapiente 
+         dignissimos, obcaecati impedit voluptates doloribus repellendus 
+         necessitatibus mollitia tenetur. Voluptatum impedit cupiditate 
+         quo assumenda dolor facere.</p>
+        <p><button>Wishlist</button></p>
+      </div> 
+    </div>
+<!-- section 6 end -->
+
+<br>
+<!-- section 7 start -->
+<div class="grid-container7">
+    <div id="map"></div>
+
+    <div class="form-container">
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required maxlength="15">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required minlength="2" maxlength="120"></textarea><br>
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </div>
+</div>
+<!-- section 7 end -->
+
+
+
+<!-- section 10 start -->
+
+
+  <!-- section 10 end -->
+
+  
+  
+
+
+
+
+
+ <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./section1.js"></script>
+    </body>
+    </html>
